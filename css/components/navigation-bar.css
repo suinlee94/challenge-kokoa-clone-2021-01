@@ -1,0 +1,21 @@
+.nav{
+    padding:20px 40px;
+    background-color:#ccad93;
+    box-sizing:border-box;
+    border-top:2px solid var(--cocoa);
+}
+.nav__ul{display:flex;justify-content:space-between;}
+
+.nav__a{position:relative;}
+
+.nav__notification{
+    background-color:tomato;
+    width:20px;height:20px;border-radius:10px;
+    display:flex;justify-content:center;align-items:center;color:white;font-size:10px;font-weight:bold;
+    position:absolute;right:-12px;top:-20px;
+}
+.nav__dot{
+    background-color:tomato;
+    width:8px;height:8px;border-radius:4px;
+    position:absolute;left:30px;top:-15px;
+}

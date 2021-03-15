@@ -1,0 +1,35 @@
+.welcome-header{margin-top:90px;text-align:center;
+    display:flex;flex-direction:column;align-items:center;}
+.welcome-header__title{margin-bottom:20px;font-size:25px;font-weight:450;color:tomato;}
+.welcome-header__text{font-size:14px;font-weight:150;color:grey;width:60%;margin-bottom:20px;}
+
+#login-form{
+    display:flex;
+    flex-direction:column;
+    margin: 0px 30px;
+}
+#login-form input{
+    padding:15px 0px;
+    border:none;
+    font-size:14px;
+    background-color:var(--lightcocoa);
+    margin-bottom:10px;
+}
+
+#login-form input:focus{border-color:tomato;}
+#login-form input{
+    border-bottom:2px solid var(--cocoa); 
+    transition:border-color 0.3s ease-in-out;
+}
+
+#login-form input[type="submit"]{
+    background-color:whitesmoke;
+    cursor:pointer;
+    opacity:70%;
+    padding:15px 0px;
+    margin-top:5px;
+    
+    border-radius:10px;
+}
+
+#login-form a {text-align:center; text-decoration:none; color:var(--cocoa); font-size:11px;}
