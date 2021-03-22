@@ -1,1 +1,4 @@
-:root {--cocoa:#806459; --lightcocoa:#ccad93;}
+:root {
+    --cocoa:#806459; --lightcocoa:#ccad93;
+    --horizontal-space:25px;
+}
