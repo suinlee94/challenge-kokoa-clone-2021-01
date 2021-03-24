@@ -4,12 +4,10 @@
     justify-content:space-between;
     align-items:center;
     margin-top:10px;
+    margin-bottom:10px;
     padding:var(--horizontal-space);
 }
 
 .screen-header__title{font-size:24px; opacity:0.7;}
 .screen-header__icons span{margin-left:20px; opacity:0.7;}
 
-.friends-screen{
-    padding: 0px var(--horizontal-space);
-}

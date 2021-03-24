@@ -5,6 +5,8 @@
 @import "components/navigation-bar.css";
 @import "components/screen-header.css";
 @import "components/user-component.css";
+@import "components/badge.css";
+
 @import "screens/login.css";
 @import "screens/friends.css";
 
@@ -17,3 +19,5 @@ body {
 
   height: 1000vh;
 }
+
+.main-screen{padding:0px var(--horizontal-space);}
